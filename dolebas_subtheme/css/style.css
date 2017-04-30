@@ -1,0 +1,18 @@
+/**
+ * Place your custom styles here.
+ */
+body {
+    background-color: #F2F2F2;
+}
+.navbar-collapse.collapse {
+    background-color: white;
+}
+.container-fluid {
+    background-color: white;
+}
+.col-sm-12 {
+    background-color: #F2F2F2;
+}
+.row {
+	background-color: #F2F2F2;
+}
