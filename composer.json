@@ -1,4 +1,7 @@
 {
     "name": "dolebas/dolebas_subtheme",
-    "type": "drupal-custom-theme"
+    "type": "drupal-custom-theme",
+    "require": {
+        "drupal/bootstrap": "*"
+    }
 }
