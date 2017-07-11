@@ -1,5 +1,4 @@
 {
     "name": "dolebas/dolebas_subtheme",
-    "type": "drupal-custom-theme",
-    "version": "1.0.0-stable"
+    "type": "drupal-custom-theme"
 }
