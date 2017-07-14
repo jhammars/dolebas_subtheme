@@ -1,6 +1,3 @@
-/**
- * Place your custom styles here.
- */
 body {
     background-color: #F2F2F2;
 }
@@ -15,4 +12,10 @@ body {
 }
 .row {
 	background-color: #F2F2F2;
+}
+.main-container.container-fluid.js-quickedit-main-content {
+    width: 80%;
+}
+.views-row {
+    text-align: center;
 }
