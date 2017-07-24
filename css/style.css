@@ -19,3 +19,14 @@ body {
 .views-row {
     text-align: center;
 }
+.navbar-header {
+    width: 100%;
+    height: 50px;
+}
+.dolebas-user-email {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translate(-15%, -50%);  
+}
