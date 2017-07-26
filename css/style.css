@@ -23,10 +23,31 @@ body {
     width: 100%;
     height: 50px;
 }
+.region.region-navigation {
+    position: absolute;
+    left: 1%;
+    right: 1%;
+    top: 10%;
+    bottom: 10%;
+}
+.dolebas-site-branding {
+    margin: 0;
+    position: absolute;
+    bottom: 15%;
+    top: 15%;
+}
+.dolebas-logo-xs {
+    height: 40px;
+    position: absolute;
+    transform: translate(-0%, -20%);  
+}
+.dolebas-logo {
+    position: absolute;
+}
 .dolebas-user-email {
     margin: 0;
     position: absolute;
     top: 50%;
     right: 0%;
-    transform: translate(-15%, -50%);  
+    transform: translate(-15%, -30%);  
 }
