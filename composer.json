@@ -2,6 +2,6 @@
     "name": "dolebas/dolebas_subtheme",
     "type": "drupal-custom-theme",
     "require": {
-        "drupal/bootstrap": "*"
+        "drupal/bootstrap": "^3.5"
     }
 }
