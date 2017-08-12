@@ -37,17 +37,36 @@ body {
     top: 15%;
 }
 .dolebas-logo-xs {
-    height: 40px;
+    max-height: 25px;
     position: absolute;
-    transform: translate(-0%, -20%);  
+    transform: translate(15%, 10%);  
 }
 .dolebas-logo {
+    max-height: 20px;
     position: absolute;
+    transform: translate(5%, 20%);      
 }
 .dolebas-user-email {
-    margin: 0;
     position: absolute;
-    top: 50%;
     right: 0%;
-    transform: translate(-15%, -30%);  
+    transform: translate(-50%, 50%);  
+}
+a {
+    color: inherit;
+}
+.btn-primary {
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
+}
+.btn-primary:focus,
+.btn-primary.focus {
+  color: #333;
+  background-color: #e6e6e6;
+  border-color: #8c8c8c;
+}
+.btn-primary:hover {
+  color: #333;
+  background-color: #e6e6e6;
+  border-color: #adadad;
 }
