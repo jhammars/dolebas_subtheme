@@ -70,3 +70,12 @@ a {
   background-color: #e6e6e6;
   border-color: #adadad;
 }
+.btn-primary:active,
+.btn-primary.active {
+  background-color: #e0e0e0;
+  border-color: #dbdbdb;
+}
+.btn-primary:active:focus {
+  background-color: #e0e0e0;
+  border-color: #dbdbdb;
+}
