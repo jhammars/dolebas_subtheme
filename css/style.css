@@ -1,4 +1,7 @@
 body {
+    position: absolute;
+    height: 100%;
+    width: 100%;
     background-color: #F2F2F2;
 }
 .navbar-collapse.collapse {
@@ -13,8 +16,14 @@ body {
 .row {
 	background-color: #F2F2F2;
 }
-.main-container.container-fluid.js-quickedit-main-content {
+.main-container {
+    overflow:auto;
+    padding-bottom:150px; 
+    background-color: #F2F2F2;
+}
+.main-container {
     width: 80%;
+    min-height: 100%;
 }
 .views-row {
     text-align: center;
@@ -29,6 +38,21 @@ body {
     right: 1%;
     top: 10%;
     bottom: 10%;
+}
+.footer {
+    position: relative;
+    margin-top: -150px; /* negative value of footer height */
+    height: 150px;
+    clear:both;
+    padding-top:20px;
+    background-color: #F2F2F2;
+    border: 0 none;
+    width: 100%;
+} 
+.region.region-footer {
+    position: relative;
+    text-align: center;
+    color: gray;
 }
 .dolebas-site-branding {
     margin: 0;
@@ -53,6 +77,9 @@ body {
 }
 a {
     color: inherit;
+}
+a:hover {
+    text-decoration: none;
 }
 .btn-primary {
   color: #333;
