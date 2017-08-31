@@ -2,35 +2,20 @@ body {
     position: absolute;
     height: 100%;
     width: 100%;
-    background-color: #F2F2F2;
-}
-.navbar-collapse.collapse {
-    background-color: white;
 }
 .container-fluid {
-    background-color: white;
+    padding: 0;
 }
-.col-sm-12 {
-    background-color: #F2F2F2;
-}
-.row {
-	background-color: #F2F2F2;
-}
-.main-container {
-    overflow:auto;
-    padding-bottom:150px; 
-    background-color: #F2F2F2;
-}
-.main-container {
-    width: 80%;
-    min-height: 100%;
-}
-.views-row {
-    text-align: center;
+.navbar {
+    border: 0 none;
 }
 .navbar-header {
+    margin: 0 !important;
     width: 100%;
+    background-color: white;
     height: 50px;
+    border: 0 none;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0), 0 1px 7px 0 rgba(0, 0, 0, 0.15);    
 }
 .region.region-navigation {
     position: absolute;
@@ -39,48 +24,79 @@ body {
     top: 10%;
     bottom: 10%;
 }
+.main-container {
+    position: relative;
+    width: 90%;
+    height: 100%;
+    padding-bottom:150px;     
+}
 .footer {
+    margin-top: -125px;
     position: relative;
-    margin-top: -150px; /* negative value of footer height */
-    height: 150px;
-    clear:both;
-    padding-top:20px;
-    background-color: #F2F2F2;
-    border: 0 none;
     width: 100%;
-} 
-.region.region-footer {
-    position: relative;
+    border: 0 none;
     text-align: center;
-    color: gray;
+} 
+
+.views-row {
+  position: relative;
+  width: 350px !important;
+  height: 183px;
+  text-align: center;
 }
-.dolebas-site-branding {
-    margin: 0;
+.thumbnail-upload {
+    display: inline-block;
     position: absolute;
-    bottom: 15%;
-    top: 15%;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%); 
+    z-index: 1;
 }
-.dolebas-logo-xs {
-    max-height: 25px;
+.purchase-button {
+    display: inline-block;
     position: absolute;
-    transform: translate(15%, 10%);  
+    left: 20%;
+    top: 50%;
+    transform: translateY(-50%); 
+    z-index: 1;
 }
-.dolebas-logo {
-    max-height: 20px;
+.publish-button {
+    display: inline-block;
     position: absolute;
-    transform: translate(5%, 20%);      
+    right: 20%;
+    top: 50%;
+    transform: translateY(-50%); 
+    z-index: 1;
 }
-.dolebas-user-email {
+.toggle-div {
     position: absolute;
-    right: 0%;
-    transform: translate(-50%, 50%);  
+    left: 0px;
+    width: 350px;
+    height: 100%;
 }
+#toggle-forward {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);     
+    right: 0;
+}
+#toggle-backward {
+    position: absolute;
+    bottom: 50%;
+    left: 0;
+    transform: translateY(50%);    
+}
+
+
+
+
 a {
     color: inherit;
 }
 a:hover {
     text-decoration: none;
 }
+
 .btn-primary {
   color: #333 !important;
   background-color: #fff !important;
@@ -105,4 +121,28 @@ a:hover {
 .btn-primary:active:focus {
   background-color: #e0e0e0 !important;
   border-color: #dbdbdb !important;
+}
+
+
+
+.dolebas-site-branding {
+    margin: 0;
+    position: absolute;
+    bottom: 15%;
+    top: 15%;
+}
+.dolebas-logo-xs {
+    max-height: 25px;
+    position: absolute;
+    transform: translate(15%, 10%);  
+}
+.dolebas-logo {
+    max-height: 20px;
+    position: absolute;
+    transform: translate(5%, 20%);      
+}
+.dolebas-user-email {
+    position: absolute;
+    right: 0%;
+    transform: translate(-50%, 50%);  
 }
