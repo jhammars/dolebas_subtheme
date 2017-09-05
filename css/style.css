@@ -16,6 +16,7 @@ body {
     height: 50px;
     border: 0 none;
     box-shadow: 0 0 0 0 rgba(0, 0, 0, 0), 0 1px 7px 0 rgba(0, 0, 0, 0.15);    
+    z-index: 1;
 }
 .region.region-navigation {
     position: absolute;
@@ -26,9 +27,19 @@ body {
 }
 .main-container {
     position: relative;
-    width: 90%;
+    width: 92%;
     height: 100%;
     padding-bottom:150px;     
+    padding-top: 20px;
+}
+.block-views-blockdolebas-me-view-block-1 {
+    float: right;
+}
+.well {
+    background-color: white;
+    border: none;
+    padding: 0;
+    box-shadow: none;
 }
 .footer {
     margin-top: -125px;
@@ -37,11 +48,19 @@ body {
     border: 0 none;
     text-align: center;
 } 
-
+/*.frontpage-player-block {*/
+/*    width:67%;*/
+/*}*/
+.dolebas-publisher h2 {
+    display: none;
+}
+.form-group {
+    margin-bottom: 0px;
+}
 .views-row {
   position: relative;
-  width: 350px !important;
-  height: 183px;
+  width: 350px;
+  height: 210px;
   text-align: center;
 }
 .thumbnail-upload {
@@ -71,7 +90,7 @@ body {
 .toggle-div {
     position: absolute;
     left: 0px;
-    width: 350px;
+    width: 370px;
     height: 100%;
 }
 #toggle-forward {
@@ -79,11 +98,13 @@ body {
     top: 50%;
     transform: translateY(-50%);     
     right: 0;
+    cursor: pointer;
 }
 #toggle-backward {
     position: absolute;
     bottom: 50%;
     left: 0;
+    cursor: pointer;
     transform: translateY(50%);    
 }
 
@@ -123,26 +144,3 @@ a:hover {
   border-color: #dbdbdb !important;
 }
 
-
-
-.dolebas-site-branding {
-    margin: 0;
-    position: absolute;
-    bottom: 15%;
-    top: 15%;
-}
-.dolebas-logo-xs {
-    max-height: 25px;
-    position: absolute;
-    transform: translate(15%, 10%);  
-}
-.dolebas-logo {
-    max-height: 20px;
-    position: absolute;
-    transform: translate(5%, 20%);      
-}
-.dolebas-user-email {
-    position: absolute;
-    right: 0%;
-    transform: translate(-50%, 50%);  
-}
