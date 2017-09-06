@@ -1,7 +1,6 @@
 core: 8.x
 type: theme
 base theme: bootstrap
-
 name: 'dolebas_subtheme'
 description: 'Bootstrap sub-theme for Dolebas'
 package: 'Bootstrap'
@@ -9,15 +8,12 @@ package: 'Bootstrap'
 regions:
   navigation: 'Navigation'
   navigation_collapsible: 'Navigation (Collapsible)'
-  # header: 'Top Bar'
-  # highlighted: 'Highlighted'
-  # help: 'Help'
   content: 'Content'
-  # sidebar_first: 'Primary'
-  # sidebar_second: 'Secondary'
+
   footer: 'Footer'
   page_top: 'Page top'
   page_bottom: 'Page bottom'
 
 libraries:
   - 'dolebas_subtheme/global-styling'
+  - 'dolebas_subtheme/global-browser-sync'

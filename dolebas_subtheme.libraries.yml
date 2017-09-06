@@ -2,3 +2,9 @@ global-styling:
   css:
     theme:
       css/style.css: {}
+
+global-browser-sync:
+  js:
+    js/global-browser-sync.js: {}
+    # attributes:
+    #   id: "__bs_script__"
