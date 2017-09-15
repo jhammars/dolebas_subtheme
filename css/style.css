@@ -3,7 +3,7 @@ body {
     height: 100%;
     width: 100%;
     margin-top:50px !important;
-    /*background-color: red;*/
+    background-color: #F2F2F2;
 }
 /*.navbar-is-fixed-top {*/
 /*    margin-top:50px !important;*/
@@ -26,7 +26,7 @@ body {
 .form-group {
     margin-bottom: 0px;
 }
-.views-row {
+.mydivclass .views-row {
   position: relative;
   width: 350px;
   height: 183px;
