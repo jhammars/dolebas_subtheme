@@ -9,11 +9,9 @@ regions:
   navigation: 'Navigation'
   navigation_collapsible: 'Navigation (Collapsible)'
   content: 'Content'
-
   footer: 'Footer'
   page_top: 'Page top'
   page_bottom: 'Page bottom'
 
 libraries:
-  - 'dolebas_subtheme/global-styling'
   - 'dolebas_subtheme/global-browser-sync'
